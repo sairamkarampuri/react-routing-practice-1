@@ -1,0 +1,50 @@
+/* Write your CSS code here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto';
+}
+
+.header-container {
+  width: 100%;
+  border-radius: 20px;
+  padding: 30px;
+  margin: auto;
+}
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo-section {
+  display: flex;
+  align-items: center;
+}
+.wave-logo {
+  width: 34px;
+  margin-right: 5px;
+}
+.wave-logo-text {
+  font-size: 26px;
+  color: #12022f;
+}
+.nav-item-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+}
+.nav-item {
+  font-size: 20px;
+  font-weight: 600;
+  color: #12022f;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+@media (width <= 768px) {
+  .header-container {
+    padding: 20px 10px;
+  }
+}
